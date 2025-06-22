@@ -7,6 +7,7 @@ import { Home } from './components/section/Home';
 import { About } from './components/section/About';
 import { Projects } from './components/section/Projects';
 import { Contact } from './components/section/Contact';
+import Techno from './components/section/Techno';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Techno />
         <Contact />
       </div>
     </>
