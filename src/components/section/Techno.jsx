@@ -3,7 +3,7 @@ import { RiReactjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { DiMongodb } from "react-icons/di";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiDjango } from "react-icons/si";
+import { FaLaravel } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
 import { RiSupabaseFill } from "react-icons/ri";
@@ -82,9 +82,9 @@ const Technologies = () => {
             <motion.div variants={iconMove(2)}
                 initial="initial"
                 animate="animate" className='relative group rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiDjango className='text-7xl text-green-900 group-hover:opacity-50'/>
+                <FaLaravel className='text-7xl text-red-600 group-hover:opacity-50'/>
                 <span className='absolute bottom-8 left-1/2 -translate-x-1/2 translate-y-8 rounded bg-neutral-800 px-2 py-1 text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100'>
-                    Django
+                    Laravel
                 </span>
             </motion.div>
             <motion.div variants={iconMove(1.5)}
